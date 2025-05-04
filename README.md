@@ -87,8 +87,8 @@ docker-compose up -d
 ### اتصال از داخل کلاینت
 
 ```bash
-docker exec -it <client_container_id> bash
-curl http://<Anycast-IP>
+docker exec -it client bash
+curl http://192.168.10.100
 ```
 
 بر اساس مسیرهای BGP، کلاینت به نزدیک‌ترین سرور هدایت می‌شود.
