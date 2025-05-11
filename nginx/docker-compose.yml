@@ -1,7 +1,7 @@
 version: '3.8'
 services:
   nginx-web1:
-    image: nginxnew:latest
+    image: nginx-devops:latest
     container_name: nginx-web1
     ports:
       - "8001:80"
@@ -17,7 +17,7 @@ services:
     restart: always
 
   nginx-web2:
-    image: nginxnew:latest
+    image: nginx-devops:latest
     container_name: nginx-web2
     ports:
       - "8002:80"
