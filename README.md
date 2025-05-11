@@ -30,7 +30,10 @@ Both Web Servers have the same Anycast IP.
 ## 📁 ساختار پروژه
 
 ```
-project/
+anycast-bgp-lab/
+├── dockerfile/            # ساخت image nginx
+│   ├── Dockerfile
+│   └── start.sh
 ├── client/                # کلاینت برای ارسال درخواست HTTP
 │   └── docker-compose.yml
 ├── nginx/                 # شامل دو وب‌سرور با IP مشترک
